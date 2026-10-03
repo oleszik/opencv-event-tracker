@@ -1,0 +1,155 @@
+[
+  {
+    "event_type": "zone_enter",
+    "frame_number": 36,
+    "object_id": 1,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.505350+00:00",
+    "bbox": [
+      407,
+      362,
+      67,
+      37
+    ],
+    "centroid": [
+      440,
+      380
+    ],
+    "zone": "center_zone",
+    "event_id": "91e00877-c0ec-428b-91e1-c1ca61fe74dc"
+  },
+  {
+    "event_type": "zone_enter",
+    "frame_number": 49,
+    "object_id": 2,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.575842+00:00",
+    "bbox": [
+      166,
+      169,
+      28,
+      73
+    ],
+    "centroid": [
+      180,
+      205
+    ],
+    "zone": "center_zone",
+    "event_id": "222607b4-b2f8-4dc3-a831-1bce38979ce0"
+  },
+  {
+    "event_type": "line_cross",
+    "frame_number": 85,
+    "object_id": 2,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.745526+00:00",
+    "bbox": [
+      310,
+      169,
+      28,
+      73
+    ],
+    "centroid": [
+      324,
+      205
+    ],
+    "line": "center_line",
+    "direction": "positive_to_negative",
+    "event_id": "75189e0b-956a-4598-a650-be015a50fe21"
+  },
+  {
+    "event_type": "zone_enter",
+    "frame_number": 88,
+    "object_id": 4,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.760037+00:00",
+    "bbox": [
+      421,
+      258,
+      40,
+      16
+    ],
+    "centroid": [
+      441,
+      266
+    ],
+    "zone": "center_zone",
+    "event_id": "ab29ed0b-48ef-4675-89a1-3c1ad9387a35"
+  },
+  {
+    "event_type": "zone_exit",
+    "frame_number": 121,
+    "object_id": 4,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.895836+00:00",
+    "bbox": [
+      454,
+      169,
+      28,
+      73
+    ],
+    "centroid": [
+      468,
+      205
+    ],
+    "zone": "center_zone",
+    "event_id": "e2ca2cf4-c86c-4570-a759-f635b753808d"
+  },
+  {
+    "event_type": "zone_enter",
+    "frame_number": 121,
+    "object_id": 5,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.895836+00:00",
+    "bbox": [
+      422,
+      169,
+      36,
+      15
+    ],
+    "centroid": [
+      440,
+      176
+    ],
+    "zone": "center_zone",
+    "event_id": "e679192a-76ee-491d-922d-a0b0d5a8bb2b"
+  },
+  {
+    "event_type": "zone_exit",
+    "frame_number": 130,
+    "object_id": 1,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:24.938148+00:00",
+    "bbox": [
+      407,
+      80,
+      67,
+      36
+    ],
+    "centroid": [
+      440,
+      98
+    ],
+    "zone": "center_zone",
+    "event_id": "902a6fbe-6c60-4821-9680-617be33177b7"
+  },
+  {
+    "event_type": "zone_exit",
+    "frame_number": 148,
+    "object_id": 5,
+    "source": "examples\\demo.mp4",
+    "timestamp": "2026-10-03T08:44:25.014284+00:00",
+    "bbox": [
+      416,
+      75,
+      36,
+      19
+    ],
+    "centroid": [
+      434,
+      84
+    ],
+    "zone": "center_zone",
+    "event_id": "17383f12-9f08-4175-a75b-96f1cd90a669"
+  }
+]

@@ -1,0 +1,32 @@
+detection:
+  min_area: 250
+  history: 60
+  threshold: 18
+  learning_rate: 0.02
+  blur_size: 5
+  morph_iterations: 2
+tracking:
+  max_distance: 55
+  max_missing_frames: 8
+  history_length: 40
+events:
+  cooldown_seconds: 0.5
+  screenshots: true
+  screenshot_types: [zone_enter, line_cross]
+output:
+  directory: output/demo
+  save_video: true
+  save_events: true
+  csv: true
+  display: false
+zones:
+  - name: center_zone
+    x1: 180
+    y1: 100
+    x2: 460
+    y2: 380
+lines:
+  - name: center_line
+    start: [321, 40]
+    end: [321, 440]
+

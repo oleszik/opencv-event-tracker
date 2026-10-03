@@ -1,0 +1,32 @@
+detection:
+  min_area: 500
+  history: 200
+  threshold: 20
+  learning_rate: -1.0
+  blur_size: 5
+  morph_iterations: 2
+tracking:
+  max_distance: 70
+  max_missing_frames: 8
+  history_length: 30
+events:
+  cooldown_seconds: 1.0
+  screenshots: true
+  screenshot_types: [zone_enter, line_cross]
+output:
+  directory: output
+  save_video: true
+  save_events: true
+  csv: false
+  display: false
+zones:
+  - name: entrance
+    x1: 180
+    y1: 120
+    x2: 460
+    y2: 360
+lines:
+  - name: doorway
+    start: [320, 60]
+    end: [320, 420]
+
